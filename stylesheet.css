@@ -1,0 +1,85 @@
+
+.container{
+    border: 1px solid #252525;
+    border-radius: 4px;
+    background-color: #ecf0f3;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+}
+.heading-calculator{
+    padding:10px 0px 10px;
+    background-color: gainsboro;
+}
+.heading-calculator h3{
+    padding: 0px auto;
+}
+.calculator{
+    text-align: center;
+    margin: 0 auto;
+}
+.calculator-screen{
+    width: 100%;
+    height: 100px;
+    background-color: #252525;
+    color: white;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.calculator-keys{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+
+button{
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: white;
+    width: 20%;
+    outline: none;
+}
+.zero-btn, .equal-sign, .all-clear{
+    width: 40%;
+}
+.operator, .equal-sign{
+    background-color: orange;
+}
+button:hover{
+    background-color: darkgrey;
+}
+.decimal{
+    width: 20%;
+}
+.operator:hover, .equal-sign:hover{
+    background-color: darkorange;
+}
+.data-diri{
+    background-color: #ecf0f3;
+    padding:100px 100px;
+}
+.foto-pribadi {
+    width: 80px;
+}
+.foto-pribadi img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+.info{
+    padding: 12px 36px;
+    background-color: orange;
+    border-radius: 4px;
+}
+.contact-person{
+    padding-left: 15px;
+}
