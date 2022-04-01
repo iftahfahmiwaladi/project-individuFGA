@@ -25,7 +25,7 @@ const inputOperator=(operator)=>{
     if(calculationOperator===''){
         prevNumber=currentNumber};
     calculationOperator=operator;
-    currentNumber='';
+    currentNumber='0';
 }
 const inputDecimal = (dot)=>{
     if(currentNumber.includes('.')){
